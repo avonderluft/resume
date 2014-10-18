@@ -28,11 +28,11 @@ info:
 
 skills:
     - name: Software Developer
-      desc: Creating beautiful apps that make their users happy, and make me happy as well
+      desc: Creating beautiful apps that make users happy, and make me happy as well
     - name: Sys Admin
       desc: Configuring sytems and servers for efficient deployment of beautiful apps
     - name: Musician
-      desc: Playing Bass, 12-string, Keyboard, et al. with others for the pure beauty of it 
+      desc: Playing bass guitar et al. with others to make beautiful music
 languages:
     - name: English
       level: Native language
@@ -40,21 +40,21 @@ languages:
       level: Competent reader
 
 alphabetsoup:   # groups of three
-    - Ruby
-    - Rails
-    - RadiantCMS
-    - XML/HTML
-    - CSS
-    - Javascript		
-    - Linux, *nix
-    - System Admin
-    - DevOps
-    - SQL - MySQL
-    - SQLite
+    - MVC design, Rails
+    - Ruby, PHP, Java
+    - Radiant, Redmine
+    - MySQL, SQLite
     - PostgreSQL
-    - Git
-    - Subversion
+    - Oracle
+    - XML, HTML, HAML
+    - CSS, SASS
+    - JS, JQuery, et al.		
+    - Linux SysAdmin
     - Shell Scripting
+    - DevOps
+    - Web server config
+    - CDN config
+    - Git / SVN SCM
 
 links:
     - name: github
@@ -72,13 +72,15 @@ jobs:
           start: 1996
           end: Present
       desc: |
-          Researches, designs and deploys web application development infrastructure
+          Designs, configures and deploys web application infrastructure on Linux and OSX
+          
+          Configures web application components including Apache, Nginx, Passenger, Bundler, MySQL, DNS
 
-          Designs, develops and extends internal and external websites using Ruby, Rails, and RadiantCMS
+          Develops and extends internal and external websites using Ruby, Rails, Redmine, RadiantCMS
 
           Configures and manages Source Control Management using Subversion and Git
 
-          Mentors I.T. staff in use of Ruby, Rails and related tools and technologies
+          Mentors I.T. staff in use of developement tools and technologies
 
     - title: Principal
       company: AVLUX Enterprises, LLC
@@ -87,9 +89,9 @@ jobs:
           start: 2000
           end: present
       desc: |
-          Oversees operations for small home-grown hosting company, specializing in Git, Subversion and Rails
+          Oversees operations for small hosting company, specializing in Git, Subversion, Rails and Redmine
 
-          Completes systems and software setup and configuration
+          Performs systems and software setup and configuration
 
           Provides customer support
 
@@ -110,7 +112,7 @@ projects: # this section is not mandatory
       url: http://radiantcms.org/
       description: Radiant is a no-fluff, open source content management system designed for small teams.
       dates: # not mandatory
-        start: 2013-02-18
+        start: 2008
         end: present # not mandatory
      # location: # not mandatory
      #   city: Florence
