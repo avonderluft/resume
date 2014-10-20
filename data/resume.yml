@@ -28,14 +28,22 @@ info:
 
 skills:
     - name: Software Developer
-      desc: Creating beautiful apps that make users happy, and make me happy as well
+      desc: Creating beautiful apps that make users and developers happy
     - name: Sys Admin
-      desc: Configuring sytems and servers for efficient deployment of beautiful apps
+      desc: Configuring sytems and servers for efficient deployment of apps
     - name: Musician
       desc: Playing bass guitar et al. with others to make beautiful music
 languages:
     - name: English
       level: Native language
+    - name: Ruby
+      level: Delighted disciple
+    - name: Bash, PHP, Java
+      level: Proficient practitioner
+    - name: Javascript, JQuery
+      level: Conversant
+    - name: Python, Perl
+      level: Acquainted
     - name: Classical Greek
       level: Competent reader
 
@@ -45,11 +53,11 @@ alphabetsoup:   # groups of three
     - Radiant, Redmine
     - MySQL, SQLite
     - PostgreSQL
-    - Oracle
+    - Oracle, DB2
     - XML, HTML, HAML
     - CSS, SASS
-    - JS, JQuery, et al.		
-    - Linux SysAdmin
+    - JS, JQuery, et al.
+    - Linux/Unix SysAdmin
     - Shell Scripting
     - DevOps
     - Web server config
@@ -94,6 +102,17 @@ jobs:
           Performs systems and software setup and configuration
 
           Provides customer support
+
+    - title: Systems Analyst (Contractor)
+      company: Pacific Data Group
+      url: http://www.comsys.us/
+      dates: 
+          start: 1995
+          end: 1996
+      desc: |
+          Lead Analyst for Order Entry Systems - code, test and quality assurance
+          
+          Job flow dependency analysis and tuning, On-call support 
 
 education: # this section is not mandatory
     - name: Reed College
