@@ -13,7 +13,7 @@ headers:
 info:
     name: Andrew vonderLuft
     # dob: 1980-01-01 # not mandatory
-    shortdesc: Software Developer / System Administrator
+    shortdesc: Software Architect / System Administrator
     email: avonderluft@avlux.net
     phone: 360.600.9962 # not mandatory
     # homepage: https://github.com/avonderluft # not mandatory
@@ -24,15 +24,15 @@ info:
         postal_code: 98604-1574 # not mandatory
         country: U.S.A. # not mandatory
     desc: |
-        Experienced Software Developer seeking a useful position in a healthy and productive endeavor
+        Experienced I.T. professional seeking a useful position in a healthy and productive endeavor
 
 skills:
+    - name: Sys Admin / DevOps
+      desc: Configuring sytems and servers for efficient software deployment
     - name: Software Developer
-      desc: Creating beautiful apps that make users and developers happy
-    - name: Sys Admin
-      desc: Configuring sytems and servers for efficient deployment of apps
+      desc: Creating beneficial apps that delight users and developers
     - name: Musician
-      desc: Playing bass guitar et al. with others to make beautiful music
+      desc: Playing bass guitar et al. with others for collective joy
 languages:
     - name: English
       level: Native language
@@ -48,21 +48,21 @@ languages:
       level: Competent reader
 
 alphabetsoup:   # groups of three
-    - MVC design, Rails
+    - DevOps/SysOps
+    - AWS Admin
+    - Config Management
+    - Linux SysAdmin
+    - Shell Scripting
+    - Git Wrangling
     - Ruby, PHP, Java
+    - MVC design, Rails
     - Radiant, Redmine
-    - MySQL, SQLite
+    - CDN config
     - PostgreSQL
-    - Oracle, DB2
+    - MySQL, SQLite
     - XML, HTML, HAML
     - CSS, SASS
     - JS, JQuery, et al.
-    - Linux/Unix SysAdmin
-    - Shell Scripting
-    - DevOps
-    - Web server config
-    - CDN config
-    - Git / SVN SCM
 
 links:
     - name: github
@@ -73,46 +73,65 @@ links:
       url: http://www.linkedin.com/in/avonderluft
 
 jobs:
-    - title: Senior Software Developer
-      company: Con-way, Inc.
-      url: http://www.con-way.com
-      dates: 
-          start: 1996
-          end: Present
+    - title: DevOps Engineer
+      company: Renewable Funding, LLC
+      url: https://renewfund.com/overview
+      dates:
+          start: Jan 2015
+          end: present
       desc: |
-          Designs, configures and deploys web application infrastructure on Linux and OSX
-          
-          Configures web application components including Apache, Nginx, Passenger, Bundler, MySQL, DNS
+          Manage software release lifecycle
 
-          Develops and extends internal and external websites using Ruby, Rails, Redmine, RadiantCMS
+          Automate software deployment
 
-          Configures and manages Source Control Management using Subversion and Git
+          Provide system resources to Software Development and QA teams
 
-          Mentors I.T. staff in use of developement tools and technologies
+          Maintain internal systems in a highly automated/repeatable way
+
+          Maintain and improve continuous integration and build systems
+
+          Ensure secure operation and configuration of all technical infrastructure
 
     - title: Principal
       company: AVLUX Enterprises, LLC
       url: https://avlux.net/
-      dates: 
-          start: 2000
+      dates:
+          start: Jul 2000
           end: present
       desc: |
-          Oversees operations for small hosting company, specializing in Git, Subversion, Rails and Redmine
+          Oversee operations for small hosting company, specializing in Git, Subversion, Rails and Redmine
 
-          Performs systems and software setup and configuration
+          Perform systems and software setup and configuration
 
-          Provides customer support
+          Provide customer support
+
+    - title: Senior Software Engineer
+      company: Con-way, Inc.
+      url: http://www.con-way.com
+      dates:
+          start: Feb 1996
+          end: Jan 2015
+      desc: |
+          Design, configure and deploy web application infrastructure on Linux and OSX
+
+          Configure web application components including Apache, Nginx, Passenger, Bundler, MySQL, DNS
+
+          Develop and extend internal and external websites using Ruby, Rails, Redmine, RadiantCMS
+
+          Configure and manage Source Control Management using Subversion and Git
+
+          Mentor I.T. staff in use of developement tools and technologies
 
     - title: Systems Analyst (Contractor)
       company: Pacific Data Group
       url: http://www.comsys.us/
-      dates: 
-          start: 1995
-          end: 1996
+      dates:
+          start: Mar 1995
+          end: Feb 1996
       desc: |
           Lead Analyst for Order Entry Systems - code, test and quality assurance
-          
-          Job flow dependency analysis and tuning, On-call support 
+
+          Job flow dependency analysis and tuning, On-call support
 
 education: # this section is not mandatory
     - name: Reed College
@@ -129,10 +148,10 @@ education: # this section is not mandatory
 projects: # this section is not mandatory
     - name: RadiantCMS
       url: http://radiantcms.org/
-      description: Radiant is a no-fluff, open source content management system designed for small teams.
+      description: Core committer.  Radiant is a no-fluff, open source content management system
       dates: # not mandatory
         start: 2008
-        end: present # not mandatory
+        end: 2014 # not mandatory
      # location: # not mandatory
      #   city: Florence
      #   region: Tuscany
