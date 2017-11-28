@@ -13,26 +13,26 @@ headers:
 info:
     name: Andrew vonderLuft
     # dob: 1980-01-01 # not mandatory
-    shortdesc: Software Architect / System Administrator
+    shortdesc: Developer / DevOps / SysAdmin
     email: avonderluft@avlux.net
     phone: 360.600.9962 # not mandatory
     # homepage: https://github.com/avonderluft # not mandatory
     address:
-        street: P.O. Box 1574
+        # street: P.O. Box 1574
         city: Battle Ground
         region: WA # not mandatory
-        postal_code: 98604-1574 # not mandatory
-        country: U.S.A. # not mandatory
+        # postal_code: 98604-1574 # not mandatory
+        country: United States # not mandatory
     desc: |
-        Experienced I.T. professional seeking a useful position in a healthy and productive endeavor
+        Creative thinker with broad experience in developing and implementing I.T. solutions
 
 skills:
-    - name: Sys Admin / DevOps
-      desc: Configuring sytems and servers for efficient software deployment
+    - name: DevOps / SysAdmin
+      desc: Configuring systems for efficient software deployment
     - name: Software Developer
-      desc: Creating beneficial apps that delight users and developers
+      desc: Creating beneficial apps that delight users and maintainers
     - name: Musician
-      desc: Playing bass guitar et al. with others for collective joy
+      desc: Making music with others for collective joy
 languages:
     - name: English
       level: Native language
@@ -47,21 +47,30 @@ languages:
     - name: Classical Greek
       level: Competent reader
 
-alphabetsoup:   # groups of three
-    - DevOps/SysOps
+alphabetsoup:   # groups of 4
+    - DevOps / SysOps
+    - Deploy Automation
+    - CI Engineering
+    - Config Mgmt
+
     - AWS Admin
-    - Config Management
+    - Ruby / Bash
     - Linux SysAdmin
-    - Shell Scripting
-    - Git Wrangling
-    - Ruby, PHP, Java
-    - MVC design, Rails
-    - Radiant, Redmine
     - CDN config
+
+    - Capistrano
+    - TeamCity, Travis
+    - Puppet
+    - JIRA / Redmine
+
     - PostgreSQL
     - MySQL, SQLite
     - XML, HTML, HAML
     - CSS, SASS
+
+    - OO Architecture
+    - MVC design, Rails
+    - Radiant CMS
     - JS, JQuery, et al.
 
 links:
@@ -73,25 +82,6 @@ links:
       url: http://www.linkedin.com/in/avonderluft
 
 jobs:
-    - title: DevOps Engineer
-      company: Renewable Funding, LLC
-      url: https://renewfund.com/overview
-      dates:
-          start: Jan 2015
-          end: present
-      desc: |
-          Manage software release lifecycle
-
-          Automate software deployment
-
-          Provide system resources to Software Development and QA teams
-
-          Maintain internal systems in a highly automated/repeatable way
-
-          Maintain and improve continuous integration and build systems
-
-          Ensure secure operation and configuration of all technical infrastructure
-
     - title: Principal
       company: AVLUX Enterprises, LLC
       url: https://avlux.net/
@@ -99,11 +89,30 @@ jobs:
           start: Jul 2000
           end: present
       desc: |
-          Oversee operations for small hosting company, specializing in Git, Subversion, Rails and Redmine
+          Oversee operations for small hosting company
 
           Perform systems and software setup and configuration
 
           Provide customer support
+
+    - title: DevOps Engineer
+      company: Renew Financial
+      url: https://renewfinancial.com
+      dates:
+          start: Jan 2015
+          end: Nov 2017
+      desc: |
+          Automate, integrate and manage software deployment lifecycle
+
+          Configure and manage continuous integration tools and build systems
+
+          Provide system resources to Software Development and QA teams
+
+          Maintain internal systems to maximize automation and repeatability
+
+          Monitor and optimize systems and application performance
+
+          Ensure secure operation and configuration of all technical infrastructure
 
     - title: Senior Software Engineer
       company: Con-way, Inc.
@@ -148,7 +157,7 @@ education: # this section is not mandatory
 projects: # this section is not mandatory
     - name: RadiantCMS
       url: http://radiantcms.org/
-      description: Core committer.  Radiant is a no-fluff, open source content management system
+      description: Core committer.  Radiant is a Rails-based, no-fluff, open source content management system
       dates: # not mandatory
         start: 2008
         end: 2014 # not mandatory
