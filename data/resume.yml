@@ -13,13 +13,13 @@ headers:
 info:
     name: Andrew vonderLuft
     # dob: 1980-01-01 # not mandatory
-    shortdesc: Developer / DevOps / SysAdmin
+    shortdesc: DevOps / SysAdmin / Developer / Manager
     email: avonderluft@avlux.net
     phone: 360.600.9962 # not mandatory
     # homepage: https://github.com/avonderluft # not mandatory
     address:
         # street: P.O. Box 1574
-        city: Battle Ground
+        city: Brush Prairie
         region: WA # not mandatory
         # postal_code: 98604-1574 # not mandatory
         country: United States # not mandatory
@@ -27,61 +27,105 @@ info:
         Creative thinker with broad experience in developing and implementing I.T. solutions
 
 skills:
-    - name: DevOps / SysAdmin
-      desc: Configuring systems for efficient software deployment
+    - name: DevOps/SysAdmin
+      desc: Automation of everything for software deployment
     - name: Software Developer
-      desc: Creating beneficial apps that delight users and maintainers
-    - name: Musician
-      desc: Making music with others for collective joy
-languages:
-    - name: English
-      level: Native language
-    - name: Ruby
-      level: Delighted disciple
-    - name: Bash, PHP, Java
-      level: Proficient practitioner
-    - name: Javascript, JQuery
-      level: Conversant
-    - name: Python, Perl
-      level: Acquainted
-    - name: Classical Greek
-      level: Competent reader
+      desc: Effective applications that delight users and maintainers
+    - name: I.T. Manager
+      desc: Strategic decision-making and collaborative oversight
 
-alphabetsoup:   # groups of 4
-    - DevOps / SysOps
+alphabetsoup:  # groups of 6
+
     - Deploy Automation
-    - CI Engineering
-    - Config Mgmt
+    - CI/CD engineering
+    - Configuration Mgmt
+    - Github integration
+    - CDN configuration
+    - Git, Subversion
 
-    - AWS Admin
-    - Ruby / Bash
-    - Linux SysAdmin
-    - CDN config
-
+    - Ruby, Rails
+    - RSpec, Minitest
     - Capistrano
-    - TeamCity, Travis
-    - Puppet
-    - JIRA / Redmine
+    - Puppet, TeamCity
+    - JIRA, Redmine
+    - Travis, Jenkins
 
-    - PostgreSQL
+    - AWS console & API
+    - EC2, ELB, ALB, SGs
+    - RDS, S3, Glacier
+    - Cloudfront
+    - VPC, Route53
+    - CloudWatch
+
+    - DNS, Apache, Nginx
+    - vim, bash, cron
+    - Monit, JMeter
+    - PHP, WP, WebSVN
+    - Java, Tomcat
+    - IIS, ActiveDirectory
+
+    - SQL, PostgreSQL
     - MySQL, SQLite
     - XML, HTML, HAML
+    - Javacript, JQuery
+    - Node, React, et al.
     - CSS, SASS
 
-    - OO Architecture
-    - MVC design, Rails
-    - Radiant CMS
-    - JS, JQuery, et al.
-
-links:
-    - name: github
-      url: https://github.com/avonderluft
-    - name: rubygems
-      url: http://rubygems.org/profiles/avonderluft
-    - name: linkedin
-      url: http://www.linkedin.com/in/avonderluft
-
 jobs:
+    - title: DevOps Engineer III
+      company: Renew Financial
+      url: https://renewfinancial.com
+      dates:
+          start: Jan 2015
+          end: Nov 2017
+      desc:  |
+        * Automate, integrate and manage software deployment lifecycle
+        * Configure and manage continuous integration tools and build systems
+        * Provide system resources to Software Development and QA teams
+        * Maintain internal systems to maximize automation and repeatability
+        * Monitor and optimize systems and application performance
+        * Ensure secure operation and configuration of all technical infrastructure
+
+    - title: Senior Software Engineer
+      company: Con-way
+      url: https://www.xpo.com
+      dates:
+          start: Apr 2002
+          end: Jan 2015
+      desc:  |
+        * Design, configure and deploy new corportate web infrastructure
+        * Configure web application components including Apache, Nginx, Passenger, Bundler, MySQL, DNS
+        * Develop and extend internal and external websites using Ruby, Rails, Redmine and RadiantCMS
+        * Configure and manage Source Control Management using Subversion and Git
+        * Mentor I.T. staff in use of development tools and technologies
+        * Implement XML web services for Rate Requests, Bills of Lading, et al.
+
+    - title: Manager of Information Architecture
+      company: Con-way
+      url: https://www.xpo.com
+      dates:
+          start: Dec 1999
+          end: Apr 2002
+      desc:  |
+        * Oversee staff of over 20 to manage network infrastructure for over 400 locations
+        * Prepare and present detailed proposal, including ROI, for change to thin client architecture
+        * Research, select and deploy thin client network solution for all company locations
+        * Facilitate communication and collaboration between technical staff and executives
+
+    - title: Senior Systems Analyst
+      company: Con-way
+      url: https://www.xpo.com
+      dates:
+          start: Feb 1996
+          end: Dec 1999
+      desc:  |
+        * Research, implement and maintain logistics operations software for new business line
+        * Prepare and present design and implementation plans to VP levels
+        * Provision and configure operations servers and network
+        * Write and execute complete data conversion to new operations software
+        * Administer Windows NT and Unix servers
+        * Teach front-end staff software usage for operations
+
     - title: Principal
       company: AVLUX Enterprises, LLC
       url: https://avlux.net/
@@ -89,47 +133,9 @@ jobs:
           start: Jul 2000
           end: present
       desc: |
-          Oversee operations for small hosting company
-
-          Perform systems and software setup and configuration
-
-          Provide customer support
-
-    - title: DevOps Engineer
-      company: Renew Financial
-      url: https://renewfinancial.com
-      dates:
-          start: Jan 2015
-          end: Nov 2017
-      desc: |
-          Automate, integrate and manage software deployment lifecycle
-
-          Configure and manage continuous integration tools and build systems
-
-          Provide system resources to Software Development and QA teams
-
-          Maintain internal systems to maximize automation and repeatability
-
-          Monitor and optimize systems and application performance
-
-          Ensure secure operation and configuration of all technical infrastructure
-
-    - title: Senior Software Engineer
-      company: Con-way, Inc.
-      url: http://www.con-way.com
-      dates:
-          start: Feb 1996
-          end: Jan 2015
-      desc: |
-          Design, configure and deploy web application infrastructure on Linux and OSX
-
-          Configure web application components including Apache, Nginx, Passenger, Bundler, MySQL, DNS
-
-          Develop and extend internal and external websites using Ruby, Rails, Redmine, RadiantCMS
-
-          Configure and manage Source Control Management using Subversion and Git
-
-          Mentor I.T. staff in use of developement tools and technologies
+        * Oversee operations for homegrown hosting company
+        * Systems and software setup and configuration
+        * Administer servers, monitoring and backup
 
     - title: Systems Analyst (Contractor)
       company: Pacific Data Group
@@ -138,9 +144,9 @@ jobs:
           start: Mar 1995
           end: Feb 1996
       desc: |
-          Lead Analyst for Order Entry Systems - code, test and quality assurance
-
-          Job flow dependency analysis and tuning, On-call support
+        * Lead Analyst for Order Entry Systems - code, test and quality assurance
+        * Job flow dependency analysis and tuning
+        * On-call support
 
 education: # this section is not mandatory
     - name: Reed College
@@ -151,18 +157,45 @@ education: # this section is not mandatory
       dates:
         start: 1977
         end: 1981 # not mandatory
-      title: Classics
+      title: B.A.
       # grade: 4.0 GPA # not mandatory
 
 projects: # this section is not mandatory
     - name: RadiantCMS
       url: http://radiantcms.org/
-      description: Core committer.  Radiant is a Rails-based, no-fluff, open source content management system
+      desc: Core committer. Radiant is a Rails-based, no-fluff, open source content management system
       dates: # not mandatory
         start: 2008
-        end: 2014 # not mandatory
+        # end: 2014 # not mandatory
      # location: # not mandatory
      #   city: Florence
      #   region: Tuscany
      #   country: Italy # not mandatory
 
+languages:
+    - name: Ruby
+      level: Delighted disciple
+    - name: SQL
+      level: Proficient
+    - name: Bash
+      level: Proficient
+    - name: PHP
+      level: Proficient
+    - name: Javascript
+      level: Conversant
+    - name: Java
+      level: Conversant
+    - name: C#, C++
+      level: Acquainted
+    - name: Python
+      level: Acquainted
+    - name: Perl
+      level: Acquainted
+
+links:
+    - name: github
+      url: https://github.com/avonderluft
+    - name: rubygems
+      url: http://rubygems.org/profiles/avonderluft
+    - name: linkedin
+      url: http://www.linkedin.com/in/avonderluft
