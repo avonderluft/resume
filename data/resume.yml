@@ -37,9 +37,9 @@ skills:
 alphabetsoup:  # groups of 6
 
     - Deploy Automation
-    - CI/CD engineering
     - Configuration Mgmt
     - Github integration
+    - Cap/EC2 integration
     - CDN configuration
     - Git, Subversion
 
