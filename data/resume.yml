@@ -1,9 +1,9 @@
 headers:
     profile: Profile
-    skills: Skills
+    skills: Roles
     languages: Languages
-    techs: Technical
-    jobs: Experiences
+    techs: Skills
+    jobs: History
     education: Education
     links: Links
     download: Download PDF
@@ -13,7 +13,7 @@ headers:
 info:
     name: Andrew vonderLuft
     # dob: 1980-01-01 # not mandatory
-    shortdesc: DevOps / SysAdmin / Developer / Manager
+    shortdesc: SRE / DevOps / SysAdmin / Dev / Manager
     email: avonderluft@avlux.net
     phone: 360.600.9962 # not mandatory
     # homepage: https://github.com/avonderluft # not mandatory
@@ -24,11 +24,11 @@ info:
         # postal_code: 98604-1574 # not mandatory
         country: United States # not mandatory
     desc: |
-        Creative thinker with broad experience in developing and implementing I.T. solutions
+        Creative thinker with broad experience developing and deploying dependable I.T. solutions
 
 skills:
-    - name: DevOps/SysAdmin
-      desc: Automation of everything for software deployment
+    - name: SRE / DevOps
+      desc: Automation of everything for resiliency and repeatability
     - name: Software Developer
       desc: Effective applications that delight users and maintainers
     - name: I.T. Manager
@@ -36,42 +36,60 @@ skills:
 
 alphabetsoup:  # groups of 6
 
-    - Deploy Automation
+    - CI/CD Pipelines
+    - Docker, Kubernetes
     - Configuration Mgmt
-    - Github integration
-    - Cap/EC2 integration
+    - App integrations
     - CDN configuration
-    - Git, Subversion
+    - Git, Bitbucket
 
-    - Ruby, Rails
+    - Ruby, Groovy
     - RSpec, Minitest
-    - Capistrano
+    - Rundeck, Capistrano
+    - Jenkins, Travis
     - Puppet, TeamCity
-    - JIRA, Redmine
-    - Travis, Jenkins
+    - Jira, Redmine
+    
+    - Linux admin tools
+    - bash, vim, cron
+    - sed, grep, mussh
+    - Graphite, Grafana
+    - Sensu, Monit
+    - Apache, Nginx, IIS
 
     - AWS console & API
-    - EC2, ELB, ALB, SGs
-    - RDS, S3, Glacier
-    - Cloudfront
-    - VPC, Route53
+    - EC2, ELBs/ALBs, SGs
+    - IAM, Lambda, S3
     - CloudWatch
+    - VPC, Route53
+    - CloudFront
 
-    - DNS, Apache, Nginx
-    - vim, bash, cron
-    - Monit, JMeter
-    - PHP, WP, WebSVN
-    - Java, Tomcat
-    - IIS, ActiveDirectory
-
-    - SQL, PostgreSQL
-    - MySQL, SQLite
-    - XML, HTML, HAML
-    - Javacript, JQuery
-    - Node, React, et al.
-    - CSS, SASS
+    - PostgreSQL, MySQL
+    - Snowflake, SQLite
+    - SQL, NoSQL, JSON,
+    - Go, Javascript
+    - PHP, SVN, WebSVN
+    - HAML, CSS, SASS
 
 jobs:
+    - title: Senior Service Reliability Engineer
+      company: iovation Inc.
+      url: https://www.iovation.com
+      dates:
+          start: Jan 2018
+          end: present
+      desc:  |
+        * Perform root cause analysis of systems performance degradations
+        * Create automated solutions using TDD ruby programs
+        * Build out full program test suites, primarily with Rspec
+        * Integrate solutions into build pipelines, concluding with deploys
+        * Manage configured state of 100s of nodes using Puppet
+        * Monitor processes and nodes, manage alert levels, using Sensu
+        * Configure and administer Git SCM (Bitbucket), CI and deploy tools
+        * Automate processes for SOC2 and GDPR audit compliance
+        * Establish best practices for end to end CI/CD pipeline
+        * Monitor systems for optimal performance and availability
+          
     - title: DevOps Engineer III
       company: Renew Financial
       url: https://renewfinancial.com
@@ -144,7 +162,7 @@ jobs:
           start: Mar 1995
           end: Feb 1996
       desc: |
-        * Lead Analyst for Order Entry Systems - code, test and quality assurance
+        * Lead Analyst for Order Entry Systems - code, test and QA
         * Job flow dependency analysis and tuning
         * On-call support
 
@@ -175,8 +193,8 @@ projects: # this section is not mandatory
 languages:
     - name: Ruby
       level: Delighted disciple
-    - name: SQL
-      level: Proficient
+    - name: Go
+      level: Conversant
     - name: Bash
       level: Proficient
     - name: PHP
@@ -185,7 +203,7 @@ languages:
       level: Conversant
     - name: Java
       level: Conversant
-    - name: C#, C++
+    - name: C, C#, C++
       level: Acquainted
     - name: Python
       level: Acquainted
